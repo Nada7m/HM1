@@ -1,0 +1,19 @@
+body{
+	background-image:url("ramadan.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+}
+.text1 {
+    font-family: 'Aref Ruqaa', serif;
+	font-size:20px;
+	text-shadow: 2px 2px #ffa64d;
+	text-align:center;
+	
+}
+#maindiv{
+	background-color:white;
+	border:6px;
+	border-color:black;
+	
+}

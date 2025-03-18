@@ -3,38 +3,44 @@
 <title>Ramadan Hub</title>
 <link rel="stylesheet" href="HM3.css">
 <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&display=swap" rel="stylesheet">
-<script>
-function tasbih (){
-var count = parseInt(document.getElementById('num').innerHTML)+1;
-document.getElementById('num').innerHTML = count;
-}
-function resit (){
-var x = parseInt(document.getElementById('num').innerHTML)=0;
-document.getElementById('num').innerHTML = x;
-}
-
-</script>
+<script src="HM3.js" defer></script>
 </head>
 <body>
+<br><br>
 <h1 class="text1">
 »»———واجهة رمضانية———«« 
 <br>
 رمضان كريم! جعله الله شهر خير وبركة عليكم وعلى احبائكم
-<br><br><br><br>
-<div id="maindiv">
-<div> <p>دعاء اليوم</p> </div>
-<div> <p>افكار وجبات صحية للإفطار و السحور</p> </div>
-<div> <p>خاتم التسبيح</p>
-<br> 
-<p id="num">0</p>
-<br>
-<button onclick="tasbih()">سبحان الله</button>
-<button onclick="resit()"> إعادة الضبط</button>
-
- </div>
-<div> <p>افكار اعمال الخير</p> </div>
+<br><br>
+<div class="maindiv">
+<div> <p>دعاء اليوم</p> 
+<p class="bg">هنا تكتب الادعية</p> 
+<button class="button"> التالي </button>
 
 </div>
+
+
+<div> <p>افكار وجبات صحية للإفطار و السحور</p> 
+<p class="bg">هنا تكتب الافكار</p> 
+<button class="button"> التالي </button>
+
+</div>
+
+
+<div> <p>خاتم التسبيح</p>
+<p id="num" class="bg">0</p>
+<button onclick="tasbih()" class="button">سبحان الله</button>
+<button onclick="resit();" "Pcolor ();" class="button"> إعادة الضبط</button> </div>
+
+
+
+<div> <p>افكار اعمال الخير</p>
+<p class="bg">هنا تكتب الافكار</p> 
+<button class="button"> التالي </button>
+</div>
+</div>
+
+<button> light/dark mood️ </button>
 </h1>
 </body>
 </html>

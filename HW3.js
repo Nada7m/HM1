@@ -19,3 +19,18 @@ document.getElementById("duaad").innerHTML = duaa.shift();
 	 idea.push(idea[0]);
 document.getElementById("idea").innerHTML = idea.shift();	
  }
+const mealIdeas = [
+  "تناول الشوفان مع الحليب والتمر",
+  "سلطة الفواكه مع الزبادي",
+  "شوربة العدس مع خبز القمح الكامل",
+  "سمبوسة مشوية مع حشوة دجاج وخضار"
+];
+
+function nextMealIdea() {
+  mealIdeas.push(mealIdeas[0]);
+  document.getElementById("mealIdea").innerHTML = mealIdeas.shift();
+}
+
+function toggleDarkMode() {
+  document.body.classList.toggle('dark-mode');
+}

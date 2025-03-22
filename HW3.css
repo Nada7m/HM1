@@ -1,5 +1,5 @@
 body{
-	background-image:url("ramadan.png");
+	background-image:url("RApic.png");
 	background-repeat:no-repeat;
 	background-position:center;
 	background-size:cover;
@@ -45,7 +45,7 @@ body{
   color: white;
 }
 .dark-mode {
-  background: #2c3e50;
+  background-color: #2c3e50;
   color: #ecf0f1;
 }
 

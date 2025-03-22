@@ -44,3 +44,17 @@ body{
   background-color: #797d7f;
   color: white;
 }
+.dark-mode {
+  background: #2c3e50;
+  color: #ecf0f1;
+}
+
+.dark-mode .maindiv div {
+  background-color: #34495e;
+  border-color: #ecf0f1;
+}
+
+.dark-mode .button {
+  background-color: #ecf0f1;
+  color: #2c3e50;
+}
